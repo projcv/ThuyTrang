@@ -11,6 +11,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const hamburgerMenu = document.getElementById('hamburger-menu');
     const navLinksList = document.getElementById('nav-links');
     const mobileOverlay = document.getElementById('mobile-overlay');
+    const mobileDrawerClose = document.getElementById('mobile-drawer-close');
     const navLinks = document.querySelectorAll('.nav-link');
     const sections = document.querySelectorAll('section');
     const backToTopBtn = document.getElementById('back-to-top');
@@ -41,6 +42,10 @@ document.addEventListener('DOMContentLoaded', () => {
     
     if (mobileOverlay) {
         mobileOverlay.addEventListener('click', closeMobileMenu);
+    }
+    
+    if (mobileDrawerClose) {
+        mobileDrawerClose.addEventListener('click', closeMobileMenu);
     }
     
     // Close menu when clicking link items
