@@ -1,0 +1,463 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thùy Trang | Portfolio</title>
+    
+    <!-- Meta SEO -->
+    <meta name="description" content="Trang web portfolio cá nhân của Thùy Trang - Học tập, kỹ năng, bài tập và thông tin liên hệ.">
+    <meta name="keywords" content="Thùy Trang, Portfolio, Sư phạm, Đại học Ngoại ngữ, ULIS, bài tập">
+    <meta name="author" content="Thùy Trang">
+    
+    <!-- Google Fonts: Comfortaa (round headings), Nunito (body), Caveat (handwritten) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@600;700&family=Comfortaa:wght@300;400;500;600;700&family=Nunito:wght@300;400;500;600;700;800;900&family=Quicksand:wght@400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- FontAwesome for beautiful icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Scroll Progress Bar -->
+    <div id="scroll-progress"></div>
+
+    <!-- Floating Navigation Bar -->
+    <header class="navbar-container">
+        <nav class="navbar" id="main-nav">
+            <a href="#" class="logo">thùy trang<span class="dot">.</span></a>
+            
+            <ul class="nav-links" id="nav-links">
+                <div class="nav-indicator" id="nav-indicator"></div>
+                <li><a href="#gioi-thieu" class="nav-link active" id="nav-intro">Giới thiệu</a></li>
+                <li><a href="#ky-nang" class="nav-link" id="nav-skills">Kỹ năng</a></li>
+                <li><a href="#bai-tap" class="nav-link" id="nav-exercises">Bài tập</a></li>
+                <li><a href="#tong-ket" class="nav-link" id="nav-summary">Tổng kết</a></li>
+                <li><a href="#lien-he" class="nav-link" id="nav-contact">Liên hệ</a></li>
+            </ul>
+            
+            <div class="nav-right">
+                <a href="https://drive.google.com" target="_blank" class="btn-cta" id="btn-drive-nav">
+                    XEM BÀI TẬP GG DRIVE <i class="fa-brands fa-google-drive"></i>
+                </a>
+                <button class="hamburger-menu" id="hamburger-menu" aria-label="Mở menu">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </button>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Mobile Side Menu Overlay -->
+    <div class="mobile-menu-overlay" id="mobile-overlay"></div>
+
+    <main class="main-content">
+        
+        <!-- SECTION 1: GIỚI THIỆU (Hero Section) -->
+        <section id="gioi-thieu" class="hero-section">
+            <!-- Morphing Liquid Blobs for Ocean Theme -->
+            <div class="blob-bg-container">
+                <div class="blob blob-1"></div>
+                <div class="blob blob-2"></div>
+            </div>
+            
+            <div class="container hero-container">
+                
+                <!-- Left: Polaroid Profile Pic -->
+                <div class="hero-image-wrapper reveal">
+                    <div class="polaroid-card">
+                        <div class="polaroid-pin"><i class="fa-solid fa-thumbtack"></i></div>
+                        <div class="polaroid-img-container">
+                            <img src="profile.png" alt="Thùy Trang Profile" class="profile-img">
+                            <span class="polaroid-status-tag">ULISER <i class="fa-solid fa-heart"></i></span>
+                        </div>
+                        <div class="polaroid-caption">
+                            <p class="polaroid-name">THÙY TRANG - ULIS 2026</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Right: Profile Info -->
+                <div class="hero-details reveal">
+                    <div class="university-badge">
+                        <i class="fa-solid fa-graduation-cap"></i> TRƯỜNG ĐẠI HỌC NGOẠI NGỮ - ĐHQGHN
+                    </div>
+                    
+                    <h1 class="hero-title">
+                        Xin chào, mình là <span class="highlight">Thùy Trang</span>
+                    </h1>
+                    
+                    <!-- Quick Info Grid -->
+                    <div class="info-grid">
+                        <div class="info-card">
+                            <div class="info-icon blue-bg">
+                                <i class="fa-solid fa-id-card"></i>
+                            </div>
+                            <div class="info-text">
+                                <span class="info-label">Mã sinh viên</span>
+                                <span class="info-value">22041234</span>
+                            </div>
+                        </div>
+                        <div class="info-card">
+                            <div class="info-icon light-blue-bg">
+                                <i class="fa-solid fa-book-open"></i>
+                            </div>
+                            <div class="info-text">
+                                <span class="info-label">Chuyên ngành</span>
+                                <span class="info-value">Sư phạm Tiếng Anh</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Bio Text -->
+                    <div class="bio-card">
+                        <p>
+                            Chào mừng thầy cô và các bạn ghé thăm góc học tập nhỏ của mình! Là một sinh viên chuyên ngành Sư phạm tại ULIS, mình luôn tìm cách kết hợp việc giảng dạy ngoại ngữ với công nghệ số để tạo ra các bài học trực quan và thú vị.
+                        </p>
+                        <p>
+                            Thông qua góc học tập này, mình hy vọng có thể chia sẻ các bài tập thực hành, tài liệu hữu ích, và lưu giữ những cột mốc ý nghĩa trong quá trình rèn luyện kỹ năng sư phạm và tư duy học thuật.
+                        </p>
+                    </div>
+                    
+                    <!-- CTA Buttons -->
+                    <div class="hero-actions">
+                        <a href="#bai-tap" class="btn btn-primary" id="btn-view-exercises">Xem bài tập <i class="fa-solid fa-arrow-down"></i></a>
+                        <a href="#lien-he" class="btn btn-secondary" id="btn-direct-contact">Trực tiếp liên hệ <i class="fa-regular fa-paper-plane"></i></a>
+                    </div>
+                </div>
+                
+            </div>
+        </section>
+
+        <!-- SECTION 2: KỸ NĂNG -->
+        <section id="ky-nang" class="skills-section">
+            <div class="container">
+                <div class="section-header reveal">
+                    <span class="sub-title">Khả năng của mình</span>
+                    <h2 class="section-title">Kỹ Năng & Công Cụ</h2>
+                    <div class="title-underline"></div>
+                </div>
+                
+                <div class="skills-grid">
+                    
+                    <!-- Skill Category 1 -->
+                    <div class="skill-category-card reveal">
+                        <div class="category-icon">
+                            <i class="fa-solid fa-language"></i>
+                        </div>
+                        <h3>Ngoại Ngữ</h3>
+                        <p class="category-desc">Công cụ kết nối thế giới và giảng dạy</p>
+                        <ul class="skills-list">
+                            <li>
+                                <div class="skill-info">
+                                    <span>Tiếng Anh (IELTS 7.5)</span>
+                                    <span>90%</span>
+                                </div>
+                                <div class="progress-bar-bg"><div class="progress-bar-fill" style="width: 90%;"></div></div>
+                            </li>
+                            <li>
+                                <div class="skill-info">
+                                    <span>Tiếng Trung giao tiếp</span>
+                                    <span>65%</span>
+                                </div>
+                                <div class="progress-bar-bg"><div class="progress-bar-fill" style="width: 65%;"></div></div>
+                            </li>
+                        </ul>
+                    </div>
+                    
+                    <!-- Skill Category 2 -->
+                    <div class="skill-category-card reveal">
+                        <div class="category-icon">
+                            <i class="fa-solid fa-laptop-code"></i>
+                        </div>
+                        <h3>Tin Học & Công Nghệ</h3>
+                        <p class="category-desc">Ứng dụng công nghệ vào giảng dạy và quản lý</p>
+                        <ul class="skills-list">
+                            <li>
+                                <div class="skill-info">
+                                    <span>MS Office (Word, PowerPoint)</span>
+                                    <span>85%</span>
+                                </div>
+                                <div class="progress-bar-bg"><div class="progress-bar-fill" style="width: 85%;"></div></div>
+                            </li>
+                            <li>
+                                <div class="skill-info">
+                                    <span>Thiết kế bài giảng (Canva, Kahoot)</span>
+                                    <span>95%</span>
+                                </div>
+                                <div class="progress-bar-bg"><div class="progress-bar-fill" style="width: 95%;"></div></div>
+                            </li>
+                            <li>
+                                <div class="skill-info">
+                                    <span>Công cụ AI hỗ trợ giảng dạy</span>
+                                    <span>75%</span>
+                                </div>
+                                <div class="progress-bar-bg"><div class="progress-bar-fill" style="width: 75%;"></div></div>
+                            </li>
+                        </ul>
+                    </div>
+                    
+                    <!-- Skill Category 3 -->
+                    <div class="skill-category-card reveal">
+                        <div class="category-icon">
+                            <i class="fa-solid fa-chalkboard-user"></i>
+                        </div>
+                        <h3>Kỹ Năng Sư Phạm</h3>
+                        <p class="category-desc">Phương pháp giảng dạy hiện đại và lấy học sinh làm trung tâm</p>
+                        <div class="tags-container">
+                            <span class="skill-tag">Soạn giáo án</span>
+                            <span class="skill-tag">Thuyết trình trước đám đông</span>
+                            <span class="skill-tag">Quản lý lớp học</span>
+                            <span class="skill-tag">Làm việc nhóm</span>
+                            <span class="skill-tag">Tư duy phản biện</span>
+                            <span class="skill-tag">Giao tiếp tốt</span>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </section>
+
+        <!-- SECTION 3: BÀI TẬP -->
+        <section id="bai-tap" class="exercises-section">
+            <div class="container">
+                <div class="section-header reveal">
+                    <span class="sub-title">Sản phẩm thực tế</span>
+                    <h2 class="section-title">Bài Tập & Dự Án</h2>
+                    <div class="title-underline"></div>
+                </div>
+                
+                <div class="exercises-grid">
+                    
+                    <!-- Exercise 1 -->
+                    <div class="exercise-card reveal">
+                        <div class="exercise-header">
+                            <span class="exercise-tag">Bài tập tuần</span>
+                            <span class="exercise-date"><i class="fa-regular fa-calendar"></i> Tuần 1 - 2</span>
+                        </div>
+                        <div class="exercise-body">
+                            <div class="exercise-icon-box">
+                                <i class="fa-solid fa-file-powerpoint"></i>
+                            </div>
+                            <h3>Thiết Kế Slide Bài Giảng Tương Tác</h3>
+                            <p>Bài giảng chủ đề "Family Vocabulary" kết hợp các trò chơi Quizizz và Kahoot giúp kích thích sự hứng thú của học sinh tiểu học.</p>
+                        </div>
+                        <div class="exercise-footer">
+                            <a href="https://drive.google.com" target="_blank" class="btn-exercise">
+                                Xem chi tiết <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- Exercise 2 -->
+                    <div class="exercise-card reveal">
+                        <div class="exercise-header">
+                            <span class="exercise-tag">Tiểu luận</span>
+                            <span class="exercise-date"><i class="fa-regular fa-calendar"></i> Tuần 3 - 4</span>
+                        </div>
+                        <div class="exercise-body">
+                            <div class="exercise-icon-box">
+                                <i class="fa-solid fa-file-lines"></i>
+                            </div>
+                            <h3>Báo Cáo Nghiên Cứu Phương Pháp Giáo Dục</h3>
+                            <p>Nghiên cứu về việc ứng dụng "Project-Based Learning" (Học tập qua dự án) trong lớp học tiếng Anh tại Việt Nam.</p>
+                        </div>
+                        <div class="exercise-footer">
+                            <a href="https://drive.google.com" target="_blank" class="btn-exercise">
+                                Xem chi tiết <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- Exercise 3 -->
+                    <div class="exercise-card reveal">
+                        <div class="exercise-header">
+                            <span class="exercise-tag">Nhật ký giảng dạy</span>
+                            <span class="exercise-date"><i class="fa-regular fa-calendar"></i> Tuần 5 - 6</span>
+                        </div>
+                        <div class="exercise-body">
+                            <div class="exercise-icon-box">
+                                <i class="fa-solid fa-video"></i>
+                            </div>
+                            <h3>Video Thực Hành Giảng Dạy Thực Tế</h3>
+                            <p>Video ghi lại quá trình đứng lớp giả định với các kỹ thuật phản hồi tích cực và phương pháp kiểm tra nhanh kiến thức học sinh.</p>
+                        </div>
+                        <div class="exercise-footer">
+                            <a href="https://drive.google.com" target="_blank" class="btn-exercise">
+                                Xem chi tiết <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                            </a>
+                        </div>
+                    </div>
+                    
+                </div>
+                
+                <div class="exercises-more reveal">
+                    <p>Tất cả các tài liệu và bài tập được lưu trữ trực tuyến tại thư mục lớp học.</p>
+                    <a href="https://drive.google.com" target="_blank" class="btn-primary" id="btn-drive-bottom">
+                        Truy cập Thư mục Google Drive <i class="fa-brands fa-google-drive"></i>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- SECTION 4: TỔNG KẾT -->
+        <section id="tong-ket" class="summary-section">
+            <div class="container">
+                <div class="section-header reveal">
+                    <span class="sub-title">Nhìn lại chặng đường</span>
+                    <h2 class="section-title">Hành Trình & Tổng Kết</h2>
+                    <div class="title-underline"></div>
+                </div>
+                
+                <div class="timeline">
+                    
+                    <!-- Timeline Item 1 -->
+                    <div class="timeline-item reveal">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-date">2022 - 2023</div>
+                        <div class="timeline-content">
+                            <h3>Bắt Đầu Hành Trình Tại ULIS</h3>
+                            <p>Chính thức trở thành tân sinh viên ngành Sư phạm. Bắt đầu làm quen với môi trường đại học năng động, tham gia các hoạt động ngoại khóa và câu lạc bộ chuyên môn.</p>
+                        </div>
+                    </div>
+
+                    <!-- Timeline Item 2 -->
+                    <div class="timeline-item reveal">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-date">2023 - 2024</div>
+                        <div class="timeline-content">
+                            <h3>Tập Trung Nghiên Cứu & Rèn Luyện</h3>
+                            <p>Tìm hiểu sâu các phương pháp sư phạm, thiết kế chương trình học và thực hành dạy mẫu. Tích lũy điểm số cao trong các học phần chuyên ngành.</p>
+                        </div>
+                    </div>
+
+                    <!-- Timeline Item 3 -->
+                    <div class="timeline-item reveal">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-date">2024 - 2025</div>
+                        <div class="timeline-content">
+                            <h3>Chuyển Đổi Số Trong Giáo Dục</h3>
+                            <p>Áp dụng các công cụ công nghệ thông tin vào giảng dạy. Xây dựng các bài giảng thông minh, phát triển tư duy sáng tạo và ứng dụng AI tích cực trong học tập.</p>
+                        </div>
+                    </div>
+
+                    <!-- Timeline Item 4 -->
+                    <div class="timeline-item reveal">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-date">Hiện tại</div>
+                        <div class="timeline-content">
+                            <h3>Hoàn Thiện Portfolio & Chuẩn Bị Tốt Nghiệp</h3>
+                            <p>Không ngừng nâng cao kỹ năng thực hành, thực tập giảng dạy tại các trường THCS/THPT và hoàn thiện hồ sơ năng lực cá nhân để sẵn sàng cho chặng đường tiếp theo.</p>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </section>
+
+        <!-- SECTION 5: LIÊN HỆ -->
+        <section id="lien-he" class="contact-section">
+            <div class="container">
+                <div class="section-header reveal">
+                    <span class="sub-title">Kết nối với mình</span>
+                    <h2 class="section-title">Thông Tin Liên Hệ</h2>
+                    <div class="title-underline"></div>
+                </div>
+                
+                <div class="contact-wrapper">
+                    <!-- Left: Contact Details -->
+                    <div class="contact-info-panel reveal">
+                        <h3>Hãy nói chuyện!</h3>
+                        <p>Nếu bạn có bất kỳ câu hỏi nào về học tập, bài tập hoặc muốn hợp tác, hãy liên hệ với mình qua các kênh dưới đây nhé!</p>
+                        
+                        <div class="contact-channels">
+                            <div class="contact-channel-item">
+                                <div class="channel-icon">
+                                    <i class="fa-solid fa-envelope"></i>
+                                </div>
+                                <div class="channel-details">
+                                    <span class="channel-label">Email</span>
+                                    <a href="mailto:thuytrang.ulis@gmail.com" class="channel-value">thuytrang.ulis@gmail.com</a>
+                                </div>
+                            </div>
+                            
+                            <div class="contact-channel-item">
+                                <div class="channel-icon">
+                                    <i class="fa-solid fa-phone"></i>
+                                </div>
+                                <div class="channel-details">
+                                    <span class="channel-label">Số điện thoại</span>
+                                    <a href="tel:0987654321" class="channel-value">098 765 4321</a>
+                                </div>
+                            </div>
+                            
+                            <div class="contact-channel-item">
+                                <div class="channel-icon">
+                                    <i class="fa-solid fa-location-dot"></i>
+                                </div>
+                                <div class="channel-details">
+                                    <span class="channel-label">Địa chỉ</span>
+                                    <span class="channel-value">Cầu Giấy, Hà Nội, Việt Nam</span>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="social-links">
+                            <a href="https://facebook.com" target="_blank" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+                            <a href="https://instagram.com" target="_blank" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+                            <a href="https://linkedin.com" target="_blank" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+                            <a href="https://github.com" target="_blank" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+                        </div>
+                    </div>
+                    
+                    <!-- Right: Contact Form -->
+                    <div class="contact-form-panel reveal">
+                        <form id="contact-form" action="#" method="POST">
+                            <div class="form-group">
+                                <label for="form-name">Họ và tên</label>
+                                <input type="text" id="form-name" name="name" required placeholder="Họ và tên của bạn...">
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="form-email">Email</label>
+                                <input type="email" id="form-email" name="email" required placeholder="Địa chỉ email...">
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="form-message">Lời nhắn</label>
+                                <textarea id="form-message" name="message" rows="5" required placeholder="Nhập lời nhắn của bạn ở đây..."></textarea>
+                            </div>
+                            
+                            <button type="submit" class="btn btn-primary btn-submit" id="btn-submit-form">
+                                Gửi tin nhắn <i class="fa-solid fa-paper-plane"></i>
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2026 Thùy Trang. Bảo lưu mọi quyền.</p>
+            <p class="footer-credit">Thiết kế với <i class="fa-solid fa-heart"></i> dành cho Thùy Trang</p>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <button class="back-to-top" id="back-to-top" aria-label="Lên đầu trang">
+        <i class="fa-solid fa-arrow-up"></i>
+    </button>
+
+    <!-- Custom JS -->
+    <script src="script.js"></script>
+</body>
+</html>
