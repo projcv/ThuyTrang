@@ -1,26 +1,32 @@
 <!DOCTYPE html>
 <html lang="vi">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Thùy Trang | Portfolio</title>
-    
+    <title>Lê Thị Quỳnh Trang | Portfolio</title>
+
     <!-- Meta SEO -->
-    <meta name="description" content="Trang web portfolio cá nhân của Thùy Trang - Học tập, kỹ năng, bài tập và thông tin liên hệ.">
-    <meta name="keywords" content="Thùy Trang, Portfolio, Sư phạm, Đại học Ngoại ngữ, ULIS, bài tập">
-    <meta name="author" content="Thùy Trang">
-    
+    <meta name="description"
+        content="Trang web portfolio cá nhân của Lê Thị Quỳnh Trang - Học tập, kỹ năng, bài tập và thông tin liên hệ.">
+    <meta name="keywords"
+        content="Lê Thị Quỳnh Trang, Quỳnh Trang, Ngôn ngữ Trung Quốc, Đại học Ngoại ngữ, ULIS, bài tập">
+    <meta name="author" content="Lê Thị Quỳnh Trang">
+
     <!-- Google Fonts: Comfortaa (round headings), Nunito (body), Caveat (handwritten) -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@600;700&family=Comfortaa:wght@300;400;500;600;700&family=Nunito:wght@300;400;500;600;700;800;900&family=Quicksand:wght@400;500;600;700&display=swap" rel="stylesheet">
-    
+    <link
+        href="https://fonts.googleapis.com/css2?family=Caveat:wght@600;700&family=Comfortaa:wght@300;400;500;600;700&family=Nunito:wght@300;400;500;600;700;800;900&family=Quicksand:wght@400;500;600;700&display=swap"
+        rel="stylesheet">
+
     <!-- FontAwesome for beautiful icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    
+
     <!-- Custom CSS -->
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 
     <!-- Scroll Progress Bar -->
@@ -29,26 +35,30 @@
     <!-- Floating Navigation Bar -->
     <header class="navbar-container">
         <nav class="navbar" id="main-nav">
-            <a href="#" class="logo">Thùy Trang<span class="dot">.</span></a>
-            
+            <a href="#" class="logo">Quỳnh Trang<span class="dot">.</span></a>
+
             <ul class="nav-links" id="nav-links">
                 <!-- Mobile Drawer Header -->
                 <div class="mobile-drawer-header">
-                    <span class="mobile-drawer-logo">Thùy Trang<span class="dot">.</span></span>
+                    <span class="mobile-drawer-logo">Quỳnh Trang<span class="dot">.</span></span>
                     <button class="mobile-drawer-close" id="mobile-drawer-close" aria-label="Đóng menu">
                         <i class="fa-solid fa-xmark"></i>
                     </button>
                 </div>
                 <div class="nav-indicator" id="nav-indicator"></div>
-                <li><a href="#gioi-thieu" class="nav-link active" id="nav-intro"><i class="fa-solid fa-circle-user mobile-nav-icon"></i> Giới thiệu</a></li>
-                <li><a href="#ky-nang" class="nav-link" id="nav-skills"><i class="fa-solid fa-wand-magic-sparkles mobile-nav-icon"></i> Kỹ năng</a></li>
-                <li><a href="#bai-tap" class="nav-link" id="nav-exercises"><i class="fa-solid fa-layer-group mobile-nav-icon"></i> Bài tập</a></li>
-                <li><a href="#tong-ket" class="nav-link" id="nav-summary"><i class="fa-solid fa-route mobile-nav-icon"></i> Tổng kết</a></li>
-                <li><a href="#lien-he" class="nav-link" id="nav-contact"><i class="fa-solid fa-comments mobile-nav-icon"></i> Liên hệ</a></li>
+                <li><a href="#gioi-thieu" class="nav-link active" id="nav-intro"><i
+                            class="fa-solid fa-circle-user mobile-nav-icon"></i> Giới thiệu</a></li>
+                <li><a href="#ky-nang" class="nav-link" id="nav-skills"><i
+                            class="fa-solid fa-wand-magic-sparkles mobile-nav-icon"></i> Kỹ năng</a></li>
+                <li><a href="#bai-tap" class="nav-link" id="nav-exercises"><i
+                            class="fa-solid fa-layer-group mobile-nav-icon"></i> Bài tập</a></li>
+                <li><a href="#tong-ket" class="nav-link" id="nav-summary"><i
+                            class="fa-solid fa-route mobile-nav-icon"></i> Tổng kết</a></li>
             </ul>
-            
+
             <div class="nav-right">
-                <a href="https://drive.google.com" target="_blank" class="btn-cta" id="btn-drive-nav">
+                <a href="https://drive.google.com/drive/folders/18fGAescGTFH0S9F8QEvBvaf0D2oiOq-Q" target="_blank"
+                    class="btn-cta" id="btn-drive-nav">
                     XEM BÀI TẬP GG DRIVE <i class="fa-brands fa-google-drive"></i>
                 </a>
                 <button class="hamburger-menu" id="hamburger-menu" aria-label="Mở menu">
@@ -64,7 +74,7 @@
     <div class="mobile-menu-overlay" id="mobile-overlay"></div>
 
     <main class="main-content">
-        
+
         <!-- SECTION 1: GIỚI THIỆU (Hero Section) -->
         <section id="gioi-thieu" class="hero-section">
             <!-- Morphing Liquid Blobs for Ocean Theme -->
@@ -72,33 +82,35 @@
                 <div class="blob blob-1"></div>
                 <div class="blob blob-2"></div>
             </div>
-            
+
             <div class="container hero-container">
-                
+
                 <!-- Left: Polaroid Profile Pic -->
                 <div class="hero-image-wrapper reveal">
                     <div class="polaroid-card">
-                        <div class="polaroid-pin"><i class="fa-solid fa-thumbtack"></i></div>
+                        <div class="polaroid-pin"><i class="fa-solid fa-thumbtack fa-bounce"
+                                style="color: #FF85A1;"></i></div>
                         <div class="polaroid-img-container">
-                            <img src="profile.png" alt="Thùy Trang Profile" class="profile-img">
-                            <span class="polaroid-status-tag">ULISER <i class="fa-solid fa-heart"></i></span>
+                            <img src="profile.png" alt="Quỳnh Trang Profile" class="profile-img">
+                            <span class="polaroid-status-tag">ULISER <i class="fa-solid fa-heart fa-beat"
+                                    style="color: #FF85A1; --fa-animation-duration: 1.5s;"></i></span>
                         </div>
                         <div class="polaroid-caption">
-                            <p class="polaroid-name">THÙY TRANG - ULIS 2026</p>
+                            <p class="polaroid-name">✨ QUỲNH TRANG - ULIS 2026 ✨</p>
                         </div>
                     </div>
                 </div>
-                
+
                 <!-- Right: Profile Info -->
                 <div class="hero-details reveal">
                     <div class="university-badge">
                         <i class="fa-solid fa-graduation-cap"></i> TRƯỜNG ĐẠI HỌC NGOẠI NGỮ - ĐHQGHN
                     </div>
-                    
+
                     <h1 class="hero-title">
-                        Xin chào, mình là <span class="highlight">Thùy Trang</span>
+                        Xin chào, mình là <span class="highlight">Quỳnh Trang</span>
                     </h1>
-                    
+
                     <!-- Quick Info Grid -->
                     <div class="info-grid">
                         <div class="info-card">
@@ -107,7 +119,7 @@
                             </div>
                             <div class="info-text">
                                 <span class="info-label">Mã sinh viên</span>
-                                <span class="info-value">22041234</span>
+                                <span class="info-value">25041815</span>
                             </div>
                         </div>
                         <div class="info-card">
@@ -115,29 +127,51 @@
                                 <i class="fa-solid fa-book-open"></i>
                             </div>
                             <div class="info-text">
-                                <span class="info-label">Chuyên ngành</span>
-                                <span class="info-value">Sư phạm Tiếng Anh</span>
+                                <span class="info-label">Ngành học</span>
+                                <span class="info-value">Ngôn ngữ Trung Quốc</span>
                             </div>
                         </div>
                     </div>
-                    
+
                     <!-- Bio Text -->
                     <div class="bio-card">
-                        <p>
-                            Chào mừng thầy cô và các bạn ghé thăm góc học tập nhỏ của mình! Là một sinh viên chuyên ngành Sư phạm tại ULIS, mình luôn tìm cách kết hợp việc giảng dạy ngoại ngữ với công nghệ số để tạo ra các bài học trực quan và thú vị.
-                        </p>
-                        <p>
-                            Thông qua góc học tập này, mình hy vọng có thể chia sẻ các bài tập thực hành, tài liệu hữu ích, và lưu giữ những cột mốc ý nghĩa trong quá trình rèn luyện kỹ năng sư phạm và tư duy học thuật.
-                        </p>
+                        <div class="bio-section">
+                            <h3 class="bio-section-title"><i class="fa-solid fa-face-smile fa-bounce"
+                                    style="color: #FF85A1; --fa-animation-duration: 2.5s; margin-right: 8px;"></i> Giới
+                                thiệu</h3>
+                            <p>
+                                Chào mừng thầy cô và các bạn đã ghé thăm góc học tập nhỏ của mình, mình tên là Lê Thị
+                                Quỳnh Trang, sinh viên ngành Ngôn ngữ Trung quốc, Đại học Ngoại Ngữ - Đại học Quốc gia
+                                Hà Nội (ULIS). Là sinh viên ngành Ngôn ngữ Trung Quốc, mình định hướng phát triển sự
+                                nghiệp của bản thân bằng cách tích hợp AI vào nền tảng ngôn ngữ học. Mình hướng tới mục
+                                tiêu trở thành một chuyên gia ngôn ngữ số, biết cách tạo ra sức mạnh cộng hưởng giữa
+                                năng lượng con người và trí tuệ nhân tạo để bứt phá chất lượng trong cả dịch thuật
+                                chuyên nghiệp lẫn giảng dạy hiện đại.
+                            </p>
+                        </div>
+                        <div class="bio-section">
+                            <h3 class="bio-section-title"><i class="fa-solid fa-compass fa-spin"
+                                    style="color: #FFB703; --fa-animation-duration: 8s; margin-right: 8px;"></i> Mục
+                                tiêu của Portfolio</h3>
+                            <p>
+                                Portfolio này được xây dựng nhằm lưu trữ và hệ thống hóa quá trình học tập, các sản phẩm
+                                học thuật, dự án cá nhân và những kỹ năng số đã tích lũy trong suốt quá trình học tại
+                                ULIS. Đồng thời, đây cũng là minh chứng cho năng lực chuyên môn, khả năng ứng dụng AI và
+                                sự trưởng thành của bản thân trên hành trình trở thành một phiên dịch viên và giảng viên
+                                tiếng Trung trong tương lai.
+                            </p>
+                        </div>
                     </div>
-                    
+
                     <!-- CTA Buttons -->
                     <div class="hero-actions">
-                        <a href="#bai-tap" class="btn btn-primary" id="btn-view-exercises">Xem bài tập <i class="fa-solid fa-arrow-down"></i></a>
-                        <a href="#lien-he" class="btn btn-secondary" id="btn-direct-contact">Trực tiếp liên hệ <i class="fa-regular fa-paper-plane"></i></a>
+                        <a href="#bai-tap" class="btn btn-primary" id="btn-view-exercises">Xem bài tập <i
+                                class="fa-solid fa-arrow-down"></i></a>
+                        <a href="mailto:quynhtrang.ulis@gmail.com" class="btn btn-secondary" id="btn-direct-contact">Liên hệ qua Email <i
+                                class="fa-regular fa-envelope"></i></a>
                     </div>
                 </div>
-                
+
             </div>
         </section>
 
@@ -149,83 +183,117 @@
                     <h2 class="section-title">Kỹ Năng & Công Cụ</h2>
                     <div class="title-underline"></div>
                 </div>
-                
+
                 <div class="skills-grid">
-                    
-                    <!-- Skill Category 1 -->
+
+                    <!-- Skill Category 1: NĂNG LỰC BẢN THÂN -->
                     <div class="skill-category-card reveal">
                         <div class="category-icon">
-                            <i class="fa-solid fa-language"></i>
+                            <i class="fa-solid fa-award fa-bounce"
+                                style="color: #FFB703; --fa-animation-duration: 2s;"></i>
                         </div>
-                        <h3>Ngoại Ngữ</h3>
-                        <p class="category-desc">Công cụ kết nối thế giới và giảng dạy</p>
-                        <ul class="skills-list">
-                            <li>
-                                <div class="skill-info">
-                                    <span>Tiếng Anh (IELTS 7.5)</span>
-                                    <span>90%</span>
-                                </div>
-                                <div class="progress-bar-bg"><div class="progress-bar-fill" style="width: 90%;"></div></div>
-                            </li>
-                            <li>
-                                <div class="skill-info">
-                                    <span>Tiếng Trung giao tiếp</span>
-                                    <span>65%</span>
-                                </div>
-                                <div class="progress-bar-bg"><div class="progress-bar-fill" style="width: 65%;"></div></div>
-                            </li>
-                        </ul>
+                        <h3>NĂNG LỰC BẢN THÂN</h3>
+                        <p class="category-desc">Nền tảng kiến thức và kỹ năng chuyên môn vững vàng</p>
+                        <div class="skill-details-list">
+                            <div class="skill-detail-item">
+                                <span class="skill-detail-title"><i class="fa-solid fa-language"></i> Năng lực tiếng
+                                    Trung</span>
+                                <p class="skill-detail-desc">Có khả năng sử dụng tiếng Trung trong học tập, giao tiếp và
+                                    học thuật; nắm vững ngữ pháp, ngữ dụng và vận dụng linh hoạt trong biên - phiên
+                                    dịch.</p>
+                            </div>
+                            <div class="skill-detail-item">
+                                <span class="skill-detail-title"><i class="fa-solid fa-comments"></i> Biên - phiên
+                                    dịch</span>
+                                <p class="skill-detail-desc">Có khả năng phân tích ngữ cảnh, lựa chọn cách diễn đạt phù
+                                    hợp và chuyển tải nội dung Việt - Trung, Trung - Việt theo hướng chính xác, tự nhiên
+                                    và giữ đúng sắc thái.</p>
+                            </div>
+                            <div class="skill-detail-item">
+                                <span class="skill-detail-title"><i class="fa-solid fa-book-open-reader"></i> Thiết kế
+                                    học liệu</span>
+                                <p class="skill-detail-desc">Có kinh nghiệm xây dựng giáo án, bài giảng, đề luyện HSK và
+                                    tài liệu học tập theo từng trình độ người học.</p>
+                            </div>
+                            <div class="skill-detail-item">
+                                <span class="skill-detail-title"><i class="fa-solid fa-wand-magic-sparkles"></i> Ứng
+                                    dụng AI & Công nghệ</span>
+                                <p class="skill-detail-desc">Thành thạo ChatGPT, Gemini, Canva AI và các nền tảng số để
+                                    hỗ trợ dịch thuật, thiết kế học liệu, nghiên cứu và tối ưu quy trình làm việc.</p>
+                            </div>
+                        </div>
                     </div>
-                    
-                    <!-- Skill Category 2 -->
+
+                    <!-- Skill Category 2: THẾ MẠNH CÁ NHÂN -->
                     <div class="skill-category-card reveal">
                         <div class="category-icon">
-                            <i class="fa-solid fa-laptop-code"></i>
+                            <i class="fa-solid fa-star fa-spin"
+                                style="color: #FF85A1; --fa-animation-duration: 8s;"></i>
                         </div>
-                        <h3>Tin Học & Công Nghệ</h3>
-                        <p class="category-desc">Ứng dụng công nghệ vào giảng dạy và quản lý</p>
-                        <ul class="skills-list">
-                            <li>
-                                <div class="skill-info">
-                                    <span>MS Office (Word, PowerPoint)</span>
-                                    <span>85%</span>
-                                </div>
-                                <div class="progress-bar-bg"><div class="progress-bar-fill" style="width: 85%;"></div></div>
-                            </li>
-                            <li>
-                                <div class="skill-info">
-                                    <span>Thiết kế bài giảng (Canva, Kahoot)</span>
-                                    <span>95%</span>
-                                </div>
-                                <div class="progress-bar-bg"><div class="progress-bar-fill" style="width: 95%;"></div></div>
-                            </li>
-                            <li>
-                                <div class="skill-info">
-                                    <span>Công cụ AI hỗ trợ giảng dạy</span>
-                                    <span>75%</span>
-                                </div>
-                                <div class="progress-bar-bg"><div class="progress-bar-fill" style="width: 75%;"></div></div>
-                            </li>
-                        </ul>
+                        <h3>THẾ MẠNH CÁ NHÂN</h3>
+                        <p class="category-desc">Phẩm chất và tư duy vượt trội tạo nên sự khác biệt</p>
+                        <div class="skill-details-list">
+                            <div class="skill-detail-item">
+                                <span class="skill-detail-title"><i class="fa-solid fa-brain"></i> Tư duy phân tích ngôn
+                                    ngữ</span>
+                                <p class="skill-detail-desc">Có khả năng phân tích cấu trúc câu, sắc thái biểu đạt và
+                                    lỗi ngôn ngữ nhằm lựa chọn cách diễn đạt phù hợp với từng bối cảnh.</p>
+                            </div>
+                            <div class="skill-detail-item">
+                                <span class="skill-detail-title"><i class="fa-solid fa-message"></i> Khả năng truyền
+                                    đạt</span>
+                                <p class="skill-detail-desc">Biết trình bày kiến thức một cách logic, dễ hiểu; có khả
+                                    năng thiết kế nội dung phù hợp với người học và tạo hứng thú trong quá trình giảng
+                                    dạy.</p>
+                            </div>
+                            <div class="skill-detail-item">
+                                <span class="skill-detail-title"><i class="fa-solid fa-seedling"></i> Khả năng tự học và
+                                    thích ứng</span>
+                                <p class="skill-detail-desc">Chủ động tìm tòi kiến thức mới, nhanh chóng làm quen với
+                                    công nghệ và vận dụng AI để nâng cao hiệu quả học tập, nghiên cứu và giảng dạy.</p>
+                            </div>
+                            <div class="skill-detail-item">
+                                <span class="skill-detail-title"><i class="fa-solid fa-circle-check"></i> Tinh thần
+                                    trách nhiệm</span>
+                                <p class="skill-detail-desc">Cẩn thận, kiên trì, đề cao tính chính xác trong dịch thuật
+                                    và luôn hoàn thành công việc với thái độ nghiêm túc, chuyên nghiệp.</p>
+                            </div>
+                        </div>
                     </div>
-                    
-                    <!-- Skill Category 3 -->
+
+                    <!-- Skill Category 3: MỤC TIÊU HỌC TẬP -->
                     <div class="skill-category-card reveal">
                         <div class="category-icon">
-                            <i class="fa-solid fa-chalkboard-user"></i>
+                            <i class="fa-solid fa-bullseye fa-beat"
+                                style="color: #0E86CA; --fa-animation-duration: 2.5s;"></i>
                         </div>
-                        <h3>Kỹ Năng Sư Phạm</h3>
-                        <p class="category-desc">Phương pháp giảng dạy hiện đại và lấy học sinh làm trung tâm</p>
-                        <div class="tags-container">
-                            <span class="skill-tag">Soạn giáo án</span>
-                            <span class="skill-tag">Thuyết trình trước đám đông</span>
-                            <span class="skill-tag">Quản lý lớp học</span>
-                            <span class="skill-tag">Làm việc nhóm</span>
-                            <span class="skill-tag">Tư duy phản biện</span>
-                            <span class="skill-tag">Giao tiếp tốt</span>
+                        <h3>MỤC TIÊU HỌC TẬP</h3>
+                        <p class="category-desc">Định hướng hành trình phát triển trong tương lai</p>
+                        <div class="skill-details-list">
+                            <div class="skill-detail-item">
+                                <span class="skill-detail-title"><i class="fa-solid fa-graduation-cap"></i> Trong thời
+                                    gian học đại học</span>
+                                <p class="skill-detail-desc">Xây dựng nền tảng vững về tiếng Trung, biên - phiên dịch và
+                                    phương pháp giảng dạy; tích cực tham gia các hoạt động học thuật, thực tập và rèn
+                                    luyện kỹ năng nghề nghiệp.</p>
+                            </div>
+                            <div class="skill-detail-item">
+                                <span class="skill-detail-title"><i class="fa-solid fa-briefcase"></i> Sau khi tốt
+                                    nghiệp</span>
+                                <p class="skill-detail-desc">Làm việc trong lĩnh vực biên - phiên dịch hoặc giáo dục,
+                                    tích lũy kinh nghiệm thực tế và phát triển năng lực chuyên môn trong môi trường
+                                    chuyên nghiệp.</p>
+                            </div>
+                            <div class="skill-detail-item">
+                                <span class="skill-detail-title"><i class="fa-solid fa-rocket"></i> Trong tương
+                                    lai</span>
+                                <p class="skill-detail-desc">Trở thành phiên dịch viên kiêm giảng viên tiếng Trung, có
+                                    khả năng ứng dụng AI và công nghệ số để nâng cao hiệu quả công việc và đóng góp cho
+                                    lĩnh vực giáo dục ngoại ngữ.</p>
+                            </div>
                         </div>
                     </div>
-                    
+
                 </div>
             </div>
         </section>
@@ -238,76 +306,135 @@
                     <h2 class="section-title">Bài Tập & Dự Án</h2>
                     <div class="title-underline"></div>
                 </div>
-                
+
                 <div class="exercises-grid">
-                    
+
                     <!-- Exercise 1 -->
                     <div class="exercise-card reveal">
                         <div class="exercise-header">
-                            <span class="exercise-tag">Bài tập tuần</span>
-                            <span class="exercise-date"><i class="fa-regular fa-calendar"></i> Tuần 1 - 2</span>
+                            <span class="exercise-tag">Hệ điều hành</span>
+                            <span class="exercise-date"><i class="fa-regular fa-calendar"></i> Tuần 1</span>
                         </div>
                         <div class="exercise-body">
-                            <div class="exercise-icon-box">
-                                <i class="fa-solid fa-file-powerpoint"></i>
+                            <div class="exercise-icon-box blue">
+                                <i class="fa-solid fa-folder-open"></i>
                             </div>
-                            <h3>Thiết Kế Slide Bài Giảng Tương Tác</h3>
-                            <p>Bài giảng chủ đề "Family Vocabulary" kết hợp các trò chơi Quizizz và Kahoot giúp kích thích sự hứng thú của học sinh tiểu học.</p>
+                            <h3>Quản Lý Tệp Tin & Thư Mục</h3>
+                            <p>Thành thạo các kỹ năng nền tảng và cơ bản nhất về quản lý hệ thống tệp tin (Files) và thư
+                                mục (Folders) trên Windows/macOS.</p>
                         </div>
                         <div class="exercise-footer">
-                            <a href="https://drive.google.com" target="_blank" class="btn-exercise">
+                            <button class="btn-exercise btn-view-detail" data-id="1">
                                 Xem chi tiết <i class="fa-solid fa-arrow-up-right-from-square"></i>
-                            </a>
+                            </button>
                         </div>
                     </div>
 
                     <!-- Exercise 2 -->
                     <div class="exercise-card reveal">
                         <div class="exercise-header">
-                            <span class="exercise-tag">Tiểu luận</span>
-                            <span class="exercise-date"><i class="fa-regular fa-calendar"></i> Tuần 3 - 4</span>
+                            <span class="exercise-tag">Nghiên cứu</span>
+                            <span class="exercise-date"><i class="fa-regular fa-calendar"></i> Tuần 2</span>
                         </div>
                         <div class="exercise-body">
-                            <div class="exercise-icon-box">
-                                <i class="fa-solid fa-file-lines"></i>
+                            <div class="exercise-icon-box purple">
+                                <i class="fa-solid fa-graduation-cap"></i>
                             </div>
-                            <h3>Báo Cáo Nghiên Cứu Phương Pháp Giáo Dục</h3>
-                            <p>Nghiên cứu về việc ứng dụng "Project-Based Learning" (Học tập qua dự án) trong lớp học tiếng Anh tại Việt Nam.</p>
+                            <h3>Tìm Kiếm & Đánh Giá Thông Tin</h3>
+                            <p>Quy trình tìm kiếm, thu thập và đánh giá độ tin cậy của tài liệu học thuật cho chủ đề
+                                tiếng Hán của sinh viên Việt Nam.</p>
                         </div>
                         <div class="exercise-footer">
-                            <a href="https://drive.google.com" target="_blank" class="btn-exercise">
+                            <button class="btn-exercise btn-view-detail" data-id="2">
                                 Xem chi tiết <i class="fa-solid fa-arrow-up-right-from-square"></i>
-                            </a>
+                            </button>
                         </div>
                     </div>
 
                     <!-- Exercise 3 -->
                     <div class="exercise-card reveal">
                         <div class="exercise-header">
-                            <span class="exercise-tag">Nhật ký giảng dạy</span>
-                            <span class="exercise-date"><i class="fa-regular fa-calendar"></i> Tuần 5 - 6</span>
+                            <span class="exercise-tag">Kỹ năng AI</span>
+                            <span class="exercise-date"><i class="fa-regular fa-calendar"></i> Tuần 3</span>
                         </div>
                         <div class="exercise-body">
-                            <div class="exercise-icon-box">
-                                <i class="fa-solid fa-video"></i>
+                            <div class="exercise-icon-box pink">
+                                <i class="fa-solid fa-wand-magic-sparkles"></i>
                             </div>
-                            <h3>Video Thực Hành Giảng Dạy Thực Tế</h3>
-                            <p>Video ghi lại quá trình đứng lớp giả định với các kỹ thuật phản hồi tích cực và phương pháp kiểm tra nhanh kiến thức học sinh.</p>
+                            <h3>Viết Prompt Hiệu Quả</h3>
+                            <p>Thực nghiệm và so sánh hiệu quả đầu ra của 3 cấp độ câu lệnh Prompt (Cơ bản, Cải tiến,
+                                Nâng cao) trong học tập.</p>
                         </div>
                         <div class="exercise-footer">
-                            <a href="https://drive.google.com" target="_blank" class="btn-exercise">
+                            <button class="btn-exercise btn-view-detail" data-id="3">
                                 Xem chi tiết <i class="fa-solid fa-arrow-up-right-from-square"></i>
-                            </a>
+                            </button>
                         </div>
                     </div>
-                    
-                </div>
-                
-                <div class="exercises-more reveal">
-                    <p>Tất cả các tài liệu và bài tập được lưu trữ trực tuyến tại thư mục lớp học.</p>
-                    <a href="https://drive.google.com" target="_blank" class="btn-primary" id="btn-drive-bottom">
-                        Truy cập Thư mục Google Drive <i class="fa-brands fa-google-drive"></i>
-                    </a>
+
+                    <!-- Exercise 4 -->
+                    <div class="exercise-card reveal">
+                        <div class="exercise-header">
+                            <span class="exercise-tag">Cộng tác</span>
+                            <span class="exercise-date"><i class="fa-regular fa-calendar"></i> Tuần 4</span>
+                        </div>
+                        <div class="exercise-body">
+                            <div class="exercise-icon-box yellow">
+                                <i class="fa-solid fa-users-gear"></i>
+                            </div>
+                            <h3>Quản Lý Dự Án & Cộng Tác Nhóm</h3>
+                            <p>Trải nghiệm và đánh giá thực tế các công cụ quản lý số phổ biến phục vụ cho quá trình làm
+                                việc nhóm (Trello, Docs, Drive).</p>
+                        </div>
+                        <div class="exercise-footer">
+                            <button class="btn-exercise btn-view-detail" data-id="4">
+                                Xem chi tiết <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                            </button>
+                        </div>
+                    </div>
+
+                    <!-- Exercise 5 -->
+                    <div class="exercise-card reveal">
+                        <div class="exercise-header">
+                            <span class="exercise-tag">AI Tạo Sinh</span>
+                            <span class="exercise-date"><i class="fa-regular fa-calendar"></i> Tuần 5</span>
+                        </div>
+                        <div class="exercise-body">
+                            <div class="exercise-icon-box teal">
+                                <i class="fa-solid fa-image"></i>
+                            </div>
+                            <h3>Ứng Dụng AI Sáng Tạo Infographic</h3>
+                            <p>Ứng dụng phối hợp ChatGPT, Gemini, DALL-E, Stable Diffusion và Canva AI để hoàn thiện một
+                                Infographic số hoàn chỉnh.</p>
+                        </div>
+                        <div class="exercise-footer">
+                            <button class="btn-exercise btn-view-detail" data-id="5">
+                                Xem chi tiết <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                            </button>
+                        </div>
+                    </div>
+
+                    <!-- Exercise 6 -->
+                    <div class="exercise-card reveal">
+                        <div class="exercise-header">
+                            <span class="exercise-tag">Liêm chính</span>
+                            <span class="exercise-date"><i class="fa-regular fa-calendar"></i> Tuần 6</span>
+                        </div>
+                        <div class="exercise-body">
+                            <div class="exercise-icon-box indigo">
+                                <i class="fa-solid fa-scale-balanced"></i>
+                            </div>
+                            <h3>Liêm Chính Học Thuật & Sử Dụng AI</h3>
+                            <p>Phân tích các chính sách liêm chính học thuật, chống đạo văn và xây dựng bộ quy tắc ứng
+                                xử khi sử dụng AI.</p>
+                        </div>
+                        <div class="exercise-footer">
+                            <button class="btn-exercise btn-view-detail" data-id="6">
+                                Xem chi tiết <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                            </button>
+                        </div>
+                    </div>
+
                 </div>
             </div>
         </section>
@@ -320,143 +447,149 @@
                     <h2 class="section-title">Hành Trình & Tổng Kết</h2>
                     <div class="title-underline"></div>
                 </div>
-                
-                <div class="timeline">
-                    
-                    <!-- Timeline Item 1 -->
-                    <div class="timeline-item reveal">
-                        <div class="timeline-dot"></div>
-                        <div class="timeline-date">2022 - 2023</div>
-                        <div class="timeline-content">
-                            <h3>Bắt Đầu Hành Trình Tại ULIS</h3>
-                            <p>Chính thức trở thành tân sinh viên ngành Sư phạm. Bắt đầu làm quen với môi trường đại học năng động, tham gia các hoạt động ngoại khóa và câu lạc bộ chuyên môn.</p>
+
+                <div class="summary-grid">
+
+                    <!-- Summary Card 1 -->
+                    <div class="summary-card reveal purple-theme">
+                        <div class="card-header-accent purple">
+                            <i class="fa-solid fa-compass"></i>
+                            <h3>1. Trải nghiệm & Thực hiện</h3>
+                        </div>
+                        <div class="summary-card-body">
+                            <p>Khi bắt đầu, mình cảm thấy khá choáng ngợp trước yêu cầu phải kết hợp giữa kỹ năng kỹ thuật và tư duy đạo đức học thuật. Tuy nhiên, dự án đi theo lộ trình rất chặt chẽ:</p>
+                            <ul class="timeline-sublist">
+                                <li>
+                                    <i class="fa-solid fa-magnifying-glass" style="color: #9B59B6;"></i>
+                                    <strong>Giai đoạn khám phá:</strong> Nghiên cứu chính sách liêm chính học thuật của ULIS và ĐHQGHN để hiểu rõ "lằn ranh" giữa hỗ trợ hợp lý và gian lận.
+                                </li>
+                                <li>
+                                    <i class="fa-solid fa-wand-magic-sparkles" style="color: #FF85A1;"></i>
+                                    <strong>Giai đoạn thực hành:</strong> Ứng dụng ChatGPT, Gemini lập dàn ý; DALL-E, Stable Diffusion, Canva tạo infographic. Luôn ghi chép nhật ký minh bạch.
+                                </li>
+                                <li>
+                                    <i class="fa-solid fa-users-gear" style="color: #FFB703;"></i>
+                                    <strong>Giai đoạn cộng tác:</strong> Sử dụng Trello theo dõi tiến độ, Google Docs soạn thảo cộng tác và Google Drive lưu trữ tập trung.
+                                </li>
+                            </ul>
                         </div>
                     </div>
 
-                    <!-- Timeline Item 2 -->
-                    <div class="timeline-item reveal">
-                        <div class="timeline-dot"></div>
-                        <div class="timeline-date">2023 - 2024</div>
-                        <div class="timeline-content">
-                            <h3>Tập Trung Nghiên Cứu & Rèn Luyện</h3>
-                            <p>Tìm hiểu sâu các phương pháp sư phạm, thiết kế chương trình học và thực hành dạy mẫu. Tích lũy điểm số cao trong các học phần chuyên ngành.</p>
+                    <!-- Summary Card 2 -->
+                    <div class="summary-card reveal pink-theme">
+                        <div class="card-header-accent pink">
+                            <i class="fa-solid fa-key"></i>
+                            <h3>2. Kiến thức & Kỹ năng</h3>
+                        </div>
+                        <div class="summary-card-body">
+                            <p>Qua dự án, mình đã đúc kết được những "bộ kỹ năng sinh tồn" cốt lõi trong kỷ nguyên số:</p>
+                            <ul class="timeline-sublist">
+                                <li>
+                                    <i class="fa-solid fa-user-gear" style="color: var(--primary-color);"></i>
+                                    <strong>Tư duy làm chủ (Human Agency):</strong> AI chỉ là "trợ lý", còn con người mới là chủ thể chịu trách nhiệm cuối cùng.
+                                </li>
+                                <li>
+                                    <i class="fa-solid fa-terminal" style="color: #FF85A1;"></i>
+                                    <strong>Thiết kế prompt (Prompt Engineering):</strong> Biết cách đặt bối cảnh, giới hạn mục tiêu để tối ưu hóa đầu ra từ AI.
+                                </li>
+                                <li>
+                                    <i class="fa-solid fa-folder-tree" style="color: #FFB703;"></i>
+                                    <strong>Quản trị dữ liệu:</strong> Quản lý khoa học từ thư mục cục bộ đến OneDrive/Drive, giữ không gian học tập số luôn ngăn nắp.
+                                </li>
+                                <li>
+                                    <i class="fa-solid fa-brain" style="color: #0E86CA;"></i>
+                                    <strong>Tư duy phản biện:</strong> Đối chiếu kết quả từ AI với giáo trình và tài liệu chính thống để tránh lỗi "AI bịa đặt".
+                                </li>
+                            </ul>
                         </div>
                     </div>
 
-                    <!-- Timeline Item 3 -->
-                    <div class="timeline-item reveal">
-                        <div class="timeline-dot"></div>
-                        <div class="timeline-date">2024 - 2025</div>
-                        <div class="timeline-content">
-                            <h3>Chuyển Đổi Số Trong Giáo Dục</h3>
-                            <p>Áp dụng các công cụ công nghệ thông tin vào giảng dạy. Xây dựng các bài giảng thông minh, phát triển tư duy sáng tạo và ứng dụng AI tích cực trong học tập.</p>
+                    <!-- Summary Card 3 -->
+                    <div class="summary-card reveal yellow-theme">
+                        <div class="card-header-accent yellow">
+                            <i class="fa-solid fa-lightbulb"></i>
+                            <h3>3. Tâm đắc & Thử thách</h3>
+                        </div>
+                        <div class="summary-card-body">
+                            <ul class="timeline-sublist">
+                                <li>
+                                    <i class="fa-solid fa-medal" style="color: #FFB703;"></i>
+                                    <strong>Điều tâm đắc nhất:</strong> Xây dựng được "Bộ 7 nguyên tắc vàng" cho bản thân. Chủ động tự viết trước, dùng AI phản biện và học sâu (deep learning).
+                                </li>
+                                <li>
+                                    <i class="fa-solid fa-triangle-exclamation" style="color: #FF85A1;"></i>
+                                    <strong>Thử thách đạo đức:</strong> Ranh giới giữa tham khảo và đạo văn rất mong manh, đặc biệt khi AI viết lại (paraphrase) quá trôi chảy.
+                                </li>
+                                <li>
+                                    <i class="fa-solid fa-people-group" style="color: var(--primary-color);"></i>
+                                    <strong>Thử thách làm việc nhóm:</strong> Khắc phục lệch tiến độ và nhầm phiên bản tài liệu bằng bảng Trello và thống nhất quy tắc định dạng.
+                                </li>
+                            </ul>
                         </div>
                     </div>
 
-                    <!-- Timeline Item 4 -->
-                    <div class="timeline-item reveal">
-                        <div class="timeline-dot"></div>
-                        <div class="timeline-date">Hiện tại</div>
-                        <div class="timeline-content">
-                            <h3>Hoàn Thiện Portfolio & Chuẩn Bị Tốt Nghiệp</h3>
-                            <p>Không ngừng nâng cao kỹ năng thực hành, thực tập giảng dạy tại các trường THCS/THPT và hoàn thiện hồ sơ năng lực cá nhân để sẵn sàng cho chặng đường tiếp theo.</p>
+                    <!-- Summary Card 4 -->
+                    <div class="summary-card reveal blue-theme">
+                        <div class="card-header-accent blue">
+                            <i class="fa-solid fa-graduation-cap"></i>
+                            <h3>4. Trưởng thành & Tương lai</h3>
+                        </div>
+                        <div class="summary-card-body">
+                            <p>Dự án này giúp mình thay đổi hoàn toàn cách tiếp cận với việc học. Sự trung thực học thuật và khả năng ứng dụng công nghệ hiệu quả sẽ là "tấm thẻ bài" khẳng định giá trị bản thân trong tương lai chuyên nghiệp.</p>
+                            <p>Sau dự án, mình tự tin hơn khi đối diện với công nghệ mới. Mình sẽ duy trì thói quen "minh bạch khi sử dụng AI" và rèn luyện tư duy phản biện. Với mình, <strong>công nghệ là đòn bẩy, còn kiến thức và đạo đức mới là nền tảng bền vững nhất.</strong></p>
                         </div>
                     </div>
-                    
+
                 </div>
             </div>
         </section>
 
-        <!-- SECTION 5: LIÊN HỆ -->
-        <section id="lien-he" class="contact-section">
-            <div class="container">
-                <div class="section-header reveal">
-                    <span class="sub-title">Kết nối với mình</span>
-                    <h2 class="section-title">Thông Tin Liên Hệ</h2>
-                    <div class="title-underline"></div>
-                </div>
-                
-                <div class="contact-wrapper">
-                    <!-- Left: Contact Details -->
-                    <div class="contact-info-panel reveal">
-                        <h3>Hãy nói chuyện!</h3>
-                        <p>Nếu bạn có bất kỳ câu hỏi nào về học tập, bài tập hoặc muốn hợp tác, hãy liên hệ với mình qua các kênh dưới đây nhé!</p>
-                        
-                        <div class="contact-channels">
-                            <div class="contact-channel-item">
-                                <div class="channel-icon">
-                                    <i class="fa-solid fa-envelope"></i>
-                                </div>
-                                <div class="channel-details">
-                                    <span class="channel-label">Email</span>
-                                    <a href="mailto:thuytrang.ulis@gmail.com" class="channel-value">thuytrang.ulis@gmail.com</a>
-                                </div>
-                            </div>
-                            
-                            <div class="contact-channel-item">
-                                <div class="channel-icon">
-                                    <i class="fa-solid fa-phone"></i>
-                                </div>
-                                <div class="channel-details">
-                                    <span class="channel-label">Số điện thoại</span>
-                                    <a href="tel:0987654321" class="channel-value">098 765 4321</a>
-                                </div>
-                            </div>
-                            
-                            <div class="contact-channel-item">
-                                <div class="channel-icon">
-                                    <i class="fa-solid fa-location-dot"></i>
-                                </div>
-                                <div class="channel-details">
-                                    <span class="channel-label">Địa chỉ</span>
-                                    <span class="channel-value">Cầu Giấy, Hà Nội, Việt Nam</span>
-                                </div>
-                            </div>
-                        </div>
-                        
-                        <div class="social-links">
-                            <a href="https://facebook.com" target="_blank" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
-                            <a href="https://instagram.com" target="_blank" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
-                            <a href="https://linkedin.com" target="_blank" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
-                            <a href="https://github.com" target="_blank" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
-                        </div>
-                    </div>
-                    
-                    <!-- Right: Contact Form -->
-                    <div class="contact-form-panel reveal">
-                        <form id="contact-form" action="#" method="POST">
-                            <div class="form-group">
-                                <label for="form-name">Họ và tên</label>
-                                <input type="text" id="form-name" name="name" required placeholder="Họ và tên của bạn...">
-                            </div>
-                            
-                            <div class="form-group">
-                                <label for="form-email">Email</label>
-                                <input type="email" id="form-email" name="email" required placeholder="Địa chỉ email...">
-                            </div>
-                            
-                            <div class="form-group">
-                                <label for="form-message">Lời nhắn</label>
-                                <textarea id="form-message" name="message" rows="5" required placeholder="Nhập lời nhắn của bạn ở đây..."></textarea>
-                            </div>
-                            
-                            <button type="submit" class="btn btn-primary btn-submit" id="btn-submit-form">
-                                Gửi tin nhắn <i class="fa-solid fa-paper-plane"></i>
-                            </button>
-                        </form>
-                    </div>
-                </div>
-            </div>
-        </section>
-        
+
+
     </main>
 
     <!-- Footer -->
     <footer class="footer">
         <div class="container">
-            <p>&copy; 2026 Portfolio Thùy Trang.</p>
+            <p>&copy; 2026 Portfolio Lê Thị Quỳnh Trang.</p>
         </div>
     </footer>
+
+    <!-- Reusable Exercise Detail Modal -->
+    <div class="modal-overlay" id="exercise-modal">
+        <div class="modal-card">
+            <button class="modal-close-btn" id="modal-close" aria-label="Đóng chi tiết bài tập">
+                <i class="fa-solid fa-xmark"></i>
+            </button>
+            <div class="modal-header">
+                <span class="modal-tag" id="modal-exercise-tag">Bài tập 1</span>
+                <h3 class="modal-title" id="modal-exercise-title">Tên bài tập</h3>
+            </div>
+            <div class="modal-body-content">
+                <div class="modal-section">
+                    <h4 class="modal-section-title"><i class="fa-solid fa-bullseye"></i> Mục tiêu bài tập</h4>
+                    <p id="modal-exercise-goal" class="modal-section-text">Mục tiêu bài tập ở đây...</p>
+                </div>
+                <div class="modal-section">
+                    <h4 class="modal-section-title"><i class="fa-solid fa-list-check"></i> Tóm tắt quá trình thực hiện
+                    </h4>
+                    <ul id="modal-exercise-summary" class="modal-summary-list">
+                        <!-- Summary steps dynamically populated -->
+                    </ul>
+                </div>
+                <div class="modal-section">
+                    <h4 class="modal-section-title"><i class="fa-solid fa-square-poll-vertical"></i> Kết luận & Bài học
+                        rút ra</h4>
+                    <p id="modal-exercise-conclusion" class="modal-section-text">Kết luận...</p>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <a href="#" target="_blank" class="btn btn-primary" id="modal-download-pdf">
+                    Tải file báo cáo PDF <i class="fa-solid fa-file-pdf"></i>
+                </a>
+            </div>
+        </div>
+    </div>
 
     <!-- Back to Top Button -->
     <button class="back-to-top" id="back-to-top" aria-label="Lên đầu trang">
@@ -466,4 +599,5 @@
     <!-- Custom JS -->
     <script src="script.js"></script>
 </body>
+
 </html>
